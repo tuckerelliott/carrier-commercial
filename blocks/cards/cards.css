@@ -9,11 +9,16 @@
 
 .cards > ul > li {
   border: 1px solid var(--dark-color);
-  background-color: var(--background-color)
+  background-color: #fff;
 }
 
 .cards .cards-card-body {
   margin: 16px;
+  font-family: NewsGothicMTW05-Bold,news gothic mt,news gothic,helvetica neue,Helvetica,Arial,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
 }
 
 .cards .cards-card-image {

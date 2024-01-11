@@ -14,7 +14,7 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: white;
+  --background-color: #white;
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
@@ -64,6 +64,7 @@ body {
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
+  text-align: center;
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
@@ -77,7 +78,7 @@ header {
   height: var(--nav-height);
 }
 
-h1, h2, h3,
+h1, h2,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
@@ -93,6 +94,12 @@ h3 { font-size: var(--heading-font-size-l) }
 h4 { font-size: var(--heading-font-size-m) }
 h5 { font-size: var(--heading-font-size-s) }
 h6 { font-size: var(--heading-font-size-xs) }
+
+h3 {
+  font-family: RotisSemiSerifW06-Regular,Rotis,Georgia,times new roman,Times,serif;
+  color: #152c73;
+  font-size: 2.5rem;
+}
 
 p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;
@@ -134,22 +141,24 @@ a:hover {
 /* buttons */
 a.button:any-link, button {
   font-family: var(--body-font-family);
+  font-size: .875rem;
+  font-weight: 500;
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 1px solid;
+  border-color: #152c73;
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: #152c73;
+  background-color: white;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 0.25rem;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
