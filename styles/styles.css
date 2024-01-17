@@ -91,7 +91,7 @@ h4, h5, h6 {
 h1 { font-size: var(--heading-font-size-xxl) }
 h2 { font-size: var(--heading-font-size-xl) }
 h3 { font-size: var(--heading-font-size-l) }
-h4 { font-size: var(--heading-font-size-m) }
+/* h4 { font-size: var(--heading-font-size-m) } */
 h5 { font-size: var(--heading-font-size-s) }
 h6 { font-size: var(--heading-font-size-xs) }
 
@@ -103,6 +103,7 @@ h3 {
 
 h4 {
   text-align: left;
+  font-size: 1.3rem;
 }
 
 p, dl, ol, ul, pre, blockquote {
