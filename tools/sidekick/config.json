@@ -13,6 +13,14 @@
       ]
     },
     {
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
+      "passConfig": true,
+      "environments": ["edit"],
+      "includePaths": ["**.docx**"]
+    },
+    {
       "id": "asset-library2",
       "title": "My Assets",
       "environments": [
