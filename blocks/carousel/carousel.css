@@ -44,7 +44,7 @@ main .carousel div.carousel-text {
   color: white;
   font-size: 2.5rem;
   font-family: RotisSemiSerifW06-Regular,Rotis,Georgia,times new roman,Times,serif;
-  background-color: yellow !important;
+  background-color: rgba(21, 44, 115, .75) !important;
   min-height: 100px;
   min-width: 800px;
   padding: 0 28px;
